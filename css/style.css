@@ -1,0 +1,101 @@
+h4 small
+{
+    display: block;
+    font-size: 60%;
+    color: #888;
+}
+
+.container {
+    width: 100%;
+}
+
+.mainContent, footer.container {
+    max-width: 100%;
+}
+
+.mainContent .banner {
+    width: 100%;
+}
+
+footer.container {
+    margin-top: 30px;
+    padding: 30px 0;
+    border-top: 1px dashed #aaa;
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        padding-top: 30px;
+    }
+}
+@media (min-width: 980px) {
+    body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        padding-bottom: 40px;
+    }
+}
+
+.navbar .container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar .brand {
+    padding: 0px;
+    margin: 0px;
+    width: 90px;
+    height: 90px;
+}
+
+.navbar-inverse {
+   
+} 
+
+
+.navbar-inverse .navbar-inner {
+    background: white;
+    height: 90px;
+    border: none;
+} 
+
+
+.navbar-inverse .navbar-inner .nav-collapse.collapse {
+    float: right;
+    max-width: 745px;
+}
+
+
+.navbar-inverse .brand, .navbar-inverse .nav {
+   margin-top: 0px;
+}
+
+.navbar-inverse .nav > li {
+    margin-top: 35px;
+}
+
+
+.navbar-inverse .nav > li > a {
+    color: #473934;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+
+footer, .push {
+ height: 232px;
+}
+
+footer{
+ background: #393b3d;
+}
+
