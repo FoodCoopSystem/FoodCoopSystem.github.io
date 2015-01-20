@@ -1,180 +1,102 @@
-h4 small
-{
-    display: block;
-    font-size: 60%;
-    color: #888;
-}
-footer.container,
-.container {
-    width: 100%;
-}
+/*Colors*/
+@media (max-width: 767px) { /* line 12, ../sass/style.scss */
+  .sidebar { padding-top: 30px; } }
+@media (min-width: 980px) { /* line 17, ../sass/style.scss */
+  body { padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */ padding-bottom: 40px; } }
+/* line 24, ../sass/style.scss */
+h1, h2, h3, h4, h5, h6, p, a { font-family: 'Gotham A', 'Gotham B'; color: #393b3c; }
 
-.mainContent {
-    max-width: 960px;
-    margin: 0 auto;
-}
+/* line 30, ../sass/style.scss */
+h4 small { display: block; font-size: 60%; color: #888; }
 
-.mainContent .banner {
-    width: 100%;
-}
+/* line 36, ../sass/style.scss */
+footer.container, .container { width: 100%; }
 
-footer.container {
-    margin-top: 30px;
-    padding: 30px 0;
-    border-top: 1px dashed #aaa;
-}
+/* line 41, ../sass/style.scss */
+.mainContent { max-width: 960px; margin: 0 auto; }
 
-@media (max-width: 767px) {
-    .sidebar {
-        padding-top: 30px;
-    }
-}
-@media (min-width: 980px) {
-    body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-        padding-bottom: 40px;
-    }
-}
+/* line 46, ../sass/style.scss */
+.mainContent .banner { width: 100%; }
 
-.navbar .container-fluid {
-    padding: 0px;
-    margin: 0px;
-}
+/* line 50, ../sass/style.scss */
+footer.container { margin-top: 30px; padding: 30px 0; border-top: 1px dashed #aaa; }
 
-.navbar .brand {
-    padding: 0px;
-    margin: 0px;
-    width: 90px;
-    height: 90px;
-}
+/*Header and navbar*/
+/* line 58, ../sass/style.scss */
+.navbar .container-fluid { padding: 0px; margin: 0px; }
 
-.navbar-inverse {
+/* line 63, ../sass/style.scss */
+.navbar .brand { padding: 0px; margin: 0px; width: 90px; height: 90px; }
 
-} 
+/* line 72, ../sass/style.scss */
+.navbar-inverse .navbar-inner { background: #f5f5f5; height: 90px; border: none; }
+/* line 78, ../sass/style.scss */
+.navbar-inverse .navbar-inner .nav-collapse.collapse { float: right; max-width: 950px; }
+/* line 83, ../sass/style.scss */
+.navbar-inverse .navbar-inner .lang { float: right; width: 46px; list-style: none; margin: 0px; padding: 0px; position: relative; right: 14px; }
+/* line 93, ../sass/style.scss */
+.navbar-inverse .navbar-inner .lang > li > a { color: #ff7c18; }
+/* line 98, ../sass/style.scss */
+.navbar-inverse .navbar-inner .social-icon { float: right; width: 120px; list-style: none; margin: 0px; padding: 16px 0px; }
+/* line 107, ../sass/style.scss */
+.navbar-inverse .navbar-inner .social-icon > li { width: 40px; margin: 0px; padding: 0px; overflow: hidden; float: left; display: block; height: 44px; background: url("/images/social-icon.png") no-repeat scroll; }
+/* line 118, ../sass/style.scss */
+.navbar-inverse .navbar-inner .social-icon > li.facebook { background-position: -91px -4px; }
+/* line 122, ../sass/style.scss */
+.navbar-inverse .navbar-inner .social-icon > li.twitter { background-position: -1px -4px; }
+/* line 126, ../sass/style.scss */
+.navbar-inverse .navbar-inner .social-icon > li.google { background-position: -45px -4px; }
+/* line 130, ../sass/style.scss */
+.navbar-inverse .navbar-inner .social-icon > li > a { width: 40px; height: 40px; margin: 0px; padding: 24px 11px; color: transparent; font-size: 3px; overflow: hidden; }
+/* line 139, ../sass/style.scss */
+.navbar-inverse .navbar-inner .btn-navbar { background: url(/image/menu.png); height: 88px; width: 88px; float: right; margin: 0px; padding: 0px; border: none; }
+/* line 149, ../sass/style.scss */
+.navbar-inverse .brand, .navbar-inverse .nav { margin: 0px; padding: 0px; }
 
+/* line 156, ../sass/style.scss */
+.lang > li, .social-icon > li, .navbar-inverse .nav > li { margin-top: 35px; }
 
-.navbar-inverse .navbar-inner {
-    background: #f5f5f5;
-    height: 90px;
-    border: none;
-} 
+/* line 161, ../sass/style.scss */
+.lang > li > a, .social-icon > li > a, .navbar-inverse .nav > li > a { color: #473934; text-transform: uppercase; padding: 0 15px; font-weight: bold; }
 
+/* line 170, ../sass/style.scss */
+html, body { height: 100%; }
 
-.navbar-inverse .navbar-inner .nav-collapse.collapse {
-    float: right;
-    max-width: 950px;
-}
+/* line 174, ../sass/style.scss */
+.wrapper { min-height: 100%; height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */ height: 100%; margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */ }
 
-.navbar-inverse .navbar-inner .lang {
-    float: right;
-    width: 46px;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;  
-    position: relative;
-    right: 14px;
-}
+/* line 181, ../sass/style.scss */
+footer, .push { height: 232px; }
 
-.navbar-inverse .navbar-inner .lang > li > a {
-    color: #ff7c18;
-}
+/* line 185, ../sass/style.scss */
+footer { background: #393b3d; }
 
+/*SLIDER front*/
+/* line 191, ../sass/style.scss */
+.jssorb05 { position: absolute; bottom: 85px; right: 6px; }
 
-.navbar-inverse .navbar-inner .social-icon {
-    float: right;
-    width: 120px;
-    list-style: none;
-    margin: 0px;
-    padding: 16px 0px;
-
-}
-
-.navbar-inverse .navbar-inner .social-icon > li {
-    width: 40px;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    float: left;
-    display: block;
-    height: 44px;
-}
-
-.navbar-inverse .navbar-inner .social-icon > li.facebook {
-    background: url("/images/social-icon.png") no-repeat scroll -91px -4px rgba(0, 0, 0, 0);
-}
-
-
-.navbar-inverse .navbar-inner .social-icon > li.twitter {
-    background: url("/images/social-icon.png") no-repeat scroll -1px -4px rgba(0, 0, 0, 0);
-}
-
-.navbar-inverse .navbar-inner .social-icon > li.google {
-    background: url("/images/social-icon.png") no-repeat scroll -45px -4px rgba(0, 0, 0, 0);
-}
-
-
-.navbar-inverse .navbar-inner .social-icon > li > a {
-    width: 40px;
-    height: 40px;
-    margin: 0px;
-    padding: 24px 11px;
-    color: transparent;
-    font-size: 3px;
-    overflow: hidden;
-}
-
-
-.navbar-inverse .brand, .navbar-inverse .nav {
-    margin: 0px;
-    padding: 0px;
-}
-
-.lang > li,
-.social-icon > li,
-.navbar-inverse .nav > li {
-    margin-top: 35px;
-}
-.lang > li > a,
-.social-icon > li > a,
-.navbar-inverse .nav > li > a {
-    color: #473934;
-    text-transform: uppercase;
-    padding: 0 15px;
-    font-weight: bold;
-}
-
-.navbar-inverse .navbar-inner .btn-navbar {
-    background: url(/image/menu.png);
-    height: 88px;
-    width: 88px;
-    float: right;
-    margin: 0px;
-    padding: 0px;
-    border: none;
-}
-
-html, body {
-    height: 100%;
-}
-
-.wrapper {
-    min-height: 100%;
-    height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
-    height: 100%;
-    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
-}
-
-footer, .push {
-    height: 232px;
-}
-
-footer{
-    background: #393b3d;
-}
-
+/*Banner slides*/
+/* line 199, ../sass/style.scss */
+#slider1 .logo-banner { left: 37%; background: url(/images/logo-baner.png) top center no-repeat; background-size: 152px 152px; position: absolute; text-align: center; top: 20%; width: 152px; height: 152px; z-index: 10000; }
+/* line 211, ../sass/style.scss */
+#slider1 .background-layer { left: 0; position: absolute; text-align: center; width: 100%; height: 100%; z-index: 5000; background-color: rgba(0, 0, 0, 0.5); }
+/* line 221, ../sass/style.scss */
+#slider1 h3 { color: #f7f5f1; left: 10%; font-size: 21px; position: absolute; text-align: center; top: 52%; width: 69%; z-index: 10000; }
+/* line 232, ../sass/style.scss */
+#slider1 .go-to-github, #slider1 .read-more { position: absolute; width: 138px; height: 26px; top: 75%; z-index: 10000; line-height: 10px; text-align: center; text-transform: uppercase; font-size: 8px; color: transparent; }
+/* line 245, ../sass/style.scss */
+#slider1 .go-to-github:hover, #slider1 .read-more:hover { outline: none; text-decoration: none; }
+/* line 251, ../sass/style.scss */
+#slider1 .go-to-github { left: 35%; background: url(/images/banner-button1.png) top center no-repeat; background-size: 138px 26px; }
+/* line 258, ../sass/style.scss */
+#slider1 .read-more { left: 51%; background: url(/images/banner-button2.png) top center no-repeat; background-size: 138px 26px; }
+/* line 265, ../sass/style.scss */
+#slider1 .go-to-about { left: 49%; background: url(/images/down.png) top center no-repeat; background-size: 15px 10px; text-align: center; position: absolute; width: 15px; height: 10px; top: 95%; z-index: 10000; }
+/* line 276, ../sass/style.scss */
+#slider1 .go-to-about:hover { background: url(/images/down.png) top center no-repeat; background-size: 15px 10px; outline: none; }
 
 /* <!-- Bullet Navigator Skin Begin -->*/
-/* jssor slider bullet navigator skin 05 css */
+/* jssor slider bullet navigator skin b21 css */
 /*
 .jssorb05 div           (normal)
 .jssorb05 div:hover     (normal mouseover)
@@ -182,27 +104,23 @@ footer{
 .jssorb05 .av:hover     (active mouseover)
 .jssorb05 .dn           (mousedown)
 */
-.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-    background: url(/images/b21.png) no-repeat;
-    overflow: hidden;
-    cursor: pointer;
-}
+/* line 297, ../sass/style.scss */
+.jssorb05 { position: absolute; top: 90%; left: 47%; }
 
-.jssorb05 div {
-    background-position: -7px -7px;
-}
+/* line 303, ../sass/style.scss */
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av { background: url(/images/b21.png) no-repeat; overflow: hidden; cursor: pointer; }
 
-.jssorb05 div:hover, .jssorb05 .av:hover {
-    background-position: -37px -7px;
-}
+/* line 310, ../sass/style.scss */
+.jssorb05 div { background-position: -7px -7px; }
 
-.jssorb05 .av {
-    background-position: -67px -7px;
-}
+/* line 314, ../sass/style.scss */
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
 
-.jssorb05 .dn, .jssorb05 .dn:hover {
-    background-position: -97px -7px;
-}
+/* line 318, ../sass/style.scss */
+.jssorb05 .av { background-position: -67px -7px; }
+
+/* line 322, ../sass/style.scss */
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
 
 /*<!-- Bullet Navigator Skin End -->
 <!-- Arrow Navigator Skin Begin -->*/
@@ -215,34 +133,23 @@ footer{
 .jssora11ldn            (mousedown)
 .jssora11rdn            (mousedown)
 */
-.jssora11l, .jssora11r, .jssora11ldn, .jssora11rdn {
-    position: absolute;
-    cursor: pointer;
-    display: block;
-    background: url(/images/a21.png) no-repeat;
-    overflow: hidden;
-}
+/* line 337, ../sass/style.scss */
+.jssora11l, .jssora11r, .jssora11ldn, .jssora11rdn { position: absolute; cursor: pointer; display: block; background: url(/images/a21.png) no-repeat; overflow: hidden; }
 
-.jssora11l {
-    background-position: -11px -41px;
-}
+/* line 345, ../sass/style.scss */
+.jssora11l { background-position: -11px -41px; }
 
-.jssora11r {
-    background-position: -71px -41px;
-}
+/* line 349, ../sass/style.scss */
+.jssora11r { background-position: -71px -41px; }
 
-.jssora11l:hover {
-    background-position: -131px -41px;
-}
+/* line 353, ../sass/style.scss */
+.jssora11l:hover { background-position: -131px -41px; }
 
-.jssora11r:hover {
-    background-position: -191px -41px;
-}
+/* line 357, ../sass/style.scss */
+.jssora11r:hover { background-position: -191px -41px; }
 
-.jssora11ldn {
-    background-position: -251px -41px;
-}
+/* line 361, ../sass/style.scss */
+.jssora11ldn { background-position: -251px -41px; }
 
-.jssora11rdn {
-    background-position: -311px -41px;
-}
+/* line 365, ../sass/style.scss */
+.jssora11rdn { background-position: -311px -41px; }

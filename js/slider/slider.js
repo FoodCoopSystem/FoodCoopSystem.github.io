@@ -28,7 +28,7 @@ jQuery(document).ready(function ($) {
         $BulletNavigatorOptions: {//[Optional] Options to specify and enable navigator or not
             $Class: $JssorBulletNavigator$, //[Required] Class to create navigator instance
             $ChanceToShow: 2, //[Required] 0 Never, 1 Mouse Over, 2 Always
-            $AutoCenter: 1, //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+            $AutoCenter: 0, //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
             $Steps: 1, //[Optional] Steps to go for each navigation request, default value is 1
             $Lanes: 1, //[Optional] Specify lanes to arrange items, default value is 1
             $SpacingX: 12, //[Optional] Horizontal space between each item in pixel, default value is 0
@@ -39,8 +39,8 @@ jQuery(document).ready(function ($) {
     };
 
     //Make the element 'slider1_container' visible before initialize jssor slider.
-    $("#slider1_container").css("display", "block");
-    var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+    $("#slider1").css("display", "block");
+    var jssor_slider1 = new $JssorSlider$("slider1", options);
 
     //responsive code begin
     //you can remove responsive code if you don't want the slider scales while window resizes
