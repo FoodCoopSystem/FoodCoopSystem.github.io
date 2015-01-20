@@ -2,30 +2,45 @@
 
 $banner-text: #f7f5f1;
 $banner-button: #86b44f;
-$text: #393b3c;
+$text: #393b3d;
 $footer-bg: #393b3d;
 
-
-
-
+/* Small devices (tablets, 768px and up) */
 @media (max-width: 767px) {
     .sidebar {
         padding-top: 30px;
     }
+  .mainContent {
+    max-width: 767px;
 }
-@media (min-width: 980px) {
-    body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-        padding-bottom: 40px;
-    }
 }
 
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 980px) {
+    body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+  .mainContent {
+    max-width: 980px;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+.mainContent {
+    max-width: 1200px;
+}
+
+
+}
+
+/*General styles*/
 
 h1, h2, h3, h4, h5, h6, p, a {
     font-family:  'Gotham A', 'Gotham B';
     color: $text;
 }
-
 
 h4 small
 {
@@ -39,12 +54,16 @@ footer.container,
 }
 
 .mainContent {
-    max-width: 960px;
     margin: 0 auto;
-}
-
-.mainContent .banner {
-    width: 100%;
+    
+    h2 {
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 87px;
+        text-transform: uppercase;
+        font-size: 42px;
+    }
+    
 }
 
 footer.container {
@@ -197,7 +216,7 @@ footer{
 /*Banner slides*/
 #slider1 {
     .logo-banner {
-        left: 37%;
+        left: 44%;
         background: url(/images/logo-baner.png) top center no-repeat;
         background-size: 152px 152px;
         position: absolute;
@@ -220,7 +239,7 @@ footer{
 
     h3 {
         color: $banner-text;
-        left: 10%;
+        left: 16%;
         font-size: 21px;
         position: absolute;
         text-align: center;
@@ -232,8 +251,8 @@ footer{
     .go-to-github,
     .read-more {
         position: absolute;
-        width: 138px;
-        height: 26px;
+        width: 168px;
+        height: 35px;
         top: 75%;
         z-index: 10000;
         line-height: 10px;
@@ -251,14 +270,14 @@ footer{
     .go-to-github {
         left: 35%; 
         background: url(/images/banner-button1.png) top center no-repeat;
-        background-size: 138px 26px;
+        background-size: 168px 35px;
         
     }
     
     .read-more {
         left: 51%;
         background: url(/images/banner-button2.png) top center no-repeat;
-        background-size: 138px 26px;
+        background-size: 168px 35px;
     }
     
     
