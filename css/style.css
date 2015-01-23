@@ -192,12 +192,15 @@ footer { background: #393b3d; }
 .people .text { border: 3px red; cursor: pointer; display: block; }
 
 /* line 455, ../sass/style.scss */
-#join-us { background: #00c443 url(/images/join-bg.png) center 10px no-repeat; height: 315px; width: 307px; }
+.team-list { margin-top: 50px; }
+
 /* line 459, ../sass/style.scss */
+#join-us { background: #00c443 url(/images/join-bg.png) center 10px no-repeat; height: 315px; width: 307px; }
+/* line 463, ../sass/style.scss */
 #join-us .center { text-align: center; margin-left: auto; margin-right: auto; margin-top: 185px; margin-bottom: 40px; }
-/* line 466, ../sass/style.scss */
+/* line 470, ../sass/style.scss */
 #join-us .center .button, #join-us .center .button:hover { border: solid #006224 2px; font-size: 18px; padding: 15px 40px; text-transform: uppercase; text-decoration: none; font-weight: bold; }
-/* line 477, ../sass/style.scss */
+/* line 481, ../sass/style.scss */
 #join-us .text { text-align: center; }
-/* line 480, ../sass/style.scss */
+/* line 484, ../sass/style.scss */
 #join-us p { padding: 0 20px; }
