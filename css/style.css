@@ -277,18 +277,24 @@ footer.container { padding: 30px 0; border-top: 1px dashed #aaa; color: #f7f5f1;
 /* line 719, ../sass/style.scss */
 footer.container .copy { padding-top: 232px; float: left; }
 /* line 724, ../sass/style.scss */
-footer.container aside { float: right; margin: 50px 0 0 0; }
-/* line 728, ../sass/style.scss */
-footer.container aside h2 { color: #f7f5f1; font-size: 60px; line-height: 30px; margin: 40px 0; text-transform: uppercase; }
-/* line 735, ../sass/style.scss */
-footer.container aside ul.sovial-icon { list-style: none; margin: 0px; padding: 0px; }
-/* line 739, ../sass/style.scss */
-footer.container aside ul.sovial-icon li { height: 100px; padding: 0 4px; background: url(/images/social-icon-footer.png) center top no-repeat; }
-/* line 743, ../sass/style.scss */
-footer.container aside ul.sovial-icon li a { color: transparent; padding: 10px 10px 80px; }
-/* line 748, ../sass/style.scss */
-footer.container aside ul.sovial-icon .facebook { background-position: -177px 0; }
-/* line 751, ../sass/style.scss */
-footer.container aside ul.sovial-icon .twitter { background-position: -8px 0; }
-/* line 754, ../sass/style.scss */
-footer.container aside ul.sovial-icon .google { background-position: -97px 0; }
+footer.container aside { margin: 50px 0 0 0; }
+/* line 727, ../sass/style.scss */
+footer.container aside h2 { color: #f7f5f1; font-size: 60px; line-height: 30px; margin: 40px 0; text-transform: uppercase; width: 332px; display: inline; }
+/* line 736, ../sass/style.scss */
+footer.container aside ul.sovial-icon { list-style: none; margin: 0px; padding: 0px; display: inline; }
+/* line 742, ../sass/style.scss */
+footer.container aside ul.sovial-icon li { padding: 41px 0 13px; display: inline; }
+/* line 745, ../sass/style.scss */
+footer.container aside ul.sovial-icon li a { color: transparent; padding: 10px; }
+/* line 750, ../sass/style.scss */
+footer.container aside ul.sovial-icon .facebook { background: url(/images/fb_icon_03.png) center -72px no-repeat; }
+/* line 752, ../sass/style.scss */
+footer.container aside ul.sovial-icon .facebook:hover { background-position: center 0px; }
+/* line 756, ../sass/style.scss */
+footer.container aside ul.sovial-icon .twitter { background: url(/images/twitter_icon_03.png) center -72px no-repeat; }
+/* line 758, ../sass/style.scss */
+footer.container aside ul.sovial-icon .twitter:hover { background-position: center 0px; }
+/* line 762, ../sass/style.scss */
+footer.container aside ul.sovial-icon .google { background: url(/images/g+_icon_03.png) center -72px no-repeat; }
+/* line 764, ../sass/style.scss */
+footer.container aside ul.sovial-icon .google:hover { background-position: center 0px; }
