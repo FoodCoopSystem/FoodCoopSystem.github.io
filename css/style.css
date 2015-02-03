@@ -173,19 +173,19 @@ footer { background: #393b3d; }
 .jssorb21 { left: 56%; position: absolute; top: 89%; }
 
 /* line 492, ../sass/style.scss */
-.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av, .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av { background: url(/images/slider_dots.png) no-repeat; overflow: hidden; cursor: pointer; width: 15px !important; }
+.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av, .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av { background: url(/images/slider_dots.png) no-repeat top left; background-size: 31px 10px; overflow: hidden; cursor: pointer; width: 11px !important; }
 
-/* line 501, ../sass/style.scss */
+/* line 502, ../sass/style.scss */
 .jssorb21 div, .jssorb05 div { background-position: 1px 0; }
 
-/* line 506, ../sass/style.scss */
-.jssorb21 div:hover, .jssorb21 .av:hover, .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -15px 0; }
+/* line 507, ../sass/style.scss */
+.jssorb21 div:hover, .jssorb21 .av:hover, .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -10px 0; }
 
-/* line 511, ../sass/style.scss */
-.jssorb21 .av, .jssorb05 .av { background-position: -15px 0; }
+/* line 512, ../sass/style.scss */
+.jssorb21 .av, .jssorb05 .av { background-position: -10px 0; }
 
-/* line 517, ../sass/style.scss */
-.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -15px 0; }
+/* line 518, ../sass/style.scss */
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -10px 0; }
 
 /*<!-- Arrow Navigator Skin Begin -->*/
 /* jssor slider arrow navigator skin 21 css */
@@ -197,104 +197,104 @@ footer { background: #393b3d; }
 .jssora21ldn            (mousedown)
 .jssora21rdn            (mousedown)
 */
-/* line 532, ../sass/style.scss */
+/* line 533, ../sass/style.scss */
 .jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn { position: absolute; cursor: pointer; display: block; background: url(/images/prev_arrow.png) center center no-repeat; overflow: hidden; width: 79px; height: 79px; }
 
-/* line 542, ../sass/style.scss */
+/* line 543, ../sass/style.scss */
 .jssora21r, .jssora21rdn { background: url(/images/next_arrow.png) center center no-repeat; }
 
-/* line 545, ../sass/style.scss */
+/* line 546, ../sass/style.scss */
 .jssora21r, .jssora21l { background-position: 0px -79px; }
 
-/* line 550, ../sass/style.scss */
+/* line 551, ../sass/style.scss */
 .jssora21rdn, .jssora21ldn, .jssora21r:hover, .jssora21l:hover { background-position: 0px 0px; }
 
 /*News CSS*/
-/* line 559, ../sass/style.scss */
+/* line 560, ../sass/style.scss */
 .news { background: url(/images/bg.jpg) top center repeat; color: #f7f5f1; }
-/* line 563, ../sass/style.scss */
+/* line 564, ../sass/style.scss */
 .news .background-layer { left: 0; position: absolute; text-align: center; width: 100%; height: 276px; z-index: 500; background-color: rgba(0, 0, 0, 0.5); }
-/* line 572, ../sass/style.scss */
+/* line 573, ../sass/style.scss */
 .news .mainContent { z-index: 501; position: relative; }
-/* line 576, ../sass/style.scss */
+/* line 577, ../sass/style.scss */
 .news .mainContent h2 { color: #f7f5f1; }
-/* line 580, ../sass/style.scss */
+/* line 581, ../sass/style.scss */
 .news .mainContent .subtext { font-size: 21px; padding: 30px 0 100px; width: 100%; }
 
 /*TEAM*/
-/* line 592, ../sass/style.scss */
+/* line 593, ../sass/style.scss */
 .team-wrapper, .team, .team-list { background: #f5f5f5; }
 
-/* line 596, ../sass/style.scss */
+/* line 597, ../sass/style.scss */
 .people { margin-bottom: 40px; height: 354px; width: 307px; background: white; }
-/* line 602, ../sass/style.scss */
+/* line 603, ../sass/style.scss */
 .people .dziubek { background: url("/images/dziubek.png") no-repeat center top; width: 15px; height: 7px; display: block; }
-/* line 609, ../sass/style.scss */
+/* line 610, ../sass/style.scss */
 .people.piotrek { background: url("/images/people/piotrek.jpg") no-repeat top left white; }
-/* line 613, ../sass/style.scss */
+/* line 614, ../sass/style.scss */
 .people.marzena { background: url("/images/people/marzena.jpg") no-repeat top left white; }
-/* line 617, ../sass/style.scss */
+/* line 618, ../sass/style.scss */
 .people.karol { background: url("/images/people/karol.jpg") no-repeat top left white; }
-/* line 621, ../sass/style.scss */
+/* line 622, ../sass/style.scss */
 .people.jarek { background: url("/images/people/jarek.jpg") no-repeat top left white; }
-/* line 625, ../sass/style.scss */
+/* line 626, ../sass/style.scss */
 .people.tomek { background: url("/images/people/tomek.jpg") no-repeat top left white; }
-/* line 629, ../sass/style.scss */
+/* line 630, ../sass/style.scss */
 .people .text { background: white; cursor: pointer; display: block; font-size: 12px; line-height: 18px; height: 311px; padding: 7px 15px; position: relative; top: 30px; }
-/* line 640, ../sass/style.scss */
+/* line 641, ../sass/style.scss */
 .people .text .dziubek { left: 64px; position: relative; top: -14px; }
-/* line 647, ../sass/style.scss */
+/* line 648, ../sass/style.scss */
 .people .image { overflow: hidden; }
-/* line 650, ../sass/style.scss */
+/* line 651, ../sass/style.scss */
 .people .image img { width: 307px; max-width: 307px; }
-/* line 655, ../sass/style.scss */
+/* line 656, ../sass/style.scss */
 .people .image h4 { padding: 7px 15px 15px 15px; }
-/* line 659, ../sass/style.scss */
+/* line 660, ../sass/style.scss */
 .people .image .dziubek { left: 64px; position: relative; top: -7px; }
 
-/* line 668, ../sass/style.scss */
+/* line 669, ../sass/style.scss */
 .team-list { margin-top: 50px; }
 
-/* line 672, ../sass/style.scss */
+/* line 673, ../sass/style.scss */
 #join-us { background: #00c443 url(/images/join-bg.png) center 29px no-repeat; height: 354px; width: 307px; }
-/* line 676, ../sass/style.scss */
+/* line 677, ../sass/style.scss */
 #join-us .center { text-align: center; margin-left: auto; margin-right: auto; margin-top: 210px; margin-bottom: 40px; }
-/* line 683, ../sass/style.scss */
+/* line 684, ../sass/style.scss */
 #join-us .center .button { border: solid #006224 2px; font-size: 18px; padding: 15px 40px; text-transform: uppercase; text-decoration: none; font-weight: bold; }
-/* line 692, ../sass/style.scss */
+/* line 693, ../sass/style.scss */
 #join-us .center .button:hover { border: solid #006224 2px; color: #00c443; background: #006224; }
-/* line 700, ../sass/style.scss */
+/* line 701, ../sass/style.scss */
 #join-us .text { text-align: center; }
-/* line 703, ../sass/style.scss */
+/* line 704, ../sass/style.scss */
 #join-us p { padding: 0 20px; }
 
 /*FOOTER*/
-/* line 709, ../sass/style.scss */
+/* line 710, ../sass/style.scss */
 footer.container, .container { width: 100%; }
 
-/* line 714, ../sass/style.scss */
+/* line 715, ../sass/style.scss */
 footer.container { padding: 30px 0; border-top: 1px dashed #aaa; color: #f7f5f1; }
-/* line 719, ../sass/style.scss */
+/* line 720, ../sass/style.scss */
 footer.container .copy { padding-top: 232px; float: left; }
-/* line 724, ../sass/style.scss */
+/* line 725, ../sass/style.scss */
 footer.container aside { margin: 50px 0 0 0; }
-/* line 727, ../sass/style.scss */
+/* line 728, ../sass/style.scss */
 footer.container aside h2 { color: #f7f5f1; font-size: 60px; line-height: 30px; margin: 40px 0; text-transform: uppercase; width: 332px; display: inline; }
-/* line 736, ../sass/style.scss */
+/* line 737, ../sass/style.scss */
 footer.container aside ul.sovial-icon { list-style: none; margin: 0px; padding: 0px; display: inline; }
-/* line 742, ../sass/style.scss */
+/* line 743, ../sass/style.scss */
 footer.container aside ul.sovial-icon li { padding: 41px 0 13px; display: inline; }
-/* line 745, ../sass/style.scss */
+/* line 746, ../sass/style.scss */
 footer.container aside ul.sovial-icon li a { color: transparent; padding: 10px; }
-/* line 750, ../sass/style.scss */
+/* line 751, ../sass/style.scss */
 footer.container aside ul.sovial-icon .facebook { background: url(/images/fb_icon_03.png) center -72px no-repeat; }
-/* line 752, ../sass/style.scss */
+/* line 753, ../sass/style.scss */
 footer.container aside ul.sovial-icon .facebook:hover { background-position: center 0px; }
-/* line 756, ../sass/style.scss */
+/* line 757, ../sass/style.scss */
 footer.container aside ul.sovial-icon .twitter { background: url(/images/twitter_icon_03.png) center -72px no-repeat; }
-/* line 758, ../sass/style.scss */
+/* line 759, ../sass/style.scss */
 footer.container aside ul.sovial-icon .twitter:hover { background-position: center 0px; }
-/* line 762, ../sass/style.scss */
+/* line 763, ../sass/style.scss */
 footer.container aside ul.sovial-icon .google { background: url(/images/g+_icon_03.png) center -72px no-repeat; }
-/* line 764, ../sass/style.scss */
+/* line 765, ../sass/style.scss */
 footer.container aside ul.sovial-icon .google:hover { background-position: center 0px; }
